@@ -15,3 +15,6 @@ Added pagination to the endpoints that could fetch an unlimited amount of record
 *in order to also improve performance, i added indexing on applicable tables.
 *in some instances I used Request Param or RequestPath, to just highlight the various ways one may use to retrieve values.
 *I have chosen to normalize the orders table in order to avoid duplications
+
+
+https://app.snapcode.review/assignment_links/8cd5a36b-4f6c-4e75-9e43-3b253e3394c1
