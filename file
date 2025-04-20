@@ -1,0 +1,17 @@
+
+
+Assumptions
+**Orders does not need to have a "description". 
+***the description that was in orders was rather meant as product description and so i moved it accordingly.
+I do understand that i was required to develop as if it were a production application. and such would require to ensure that 
+all controllers are devloped in a similar way. however I felt it maybe beneficial for me to highlight that various knowledge i have
+That is why the Product Controller is developed in one way, with the Customer controller another and the Orders controller sa much the same as i received it.
+
+
+Things to note
+*On the Products controler, I opted to do the whole controler as I would have done it normally, I believe this way it's clearer
+**For the products controller i used the versioning strategy in order to allow the 
+Added pagination to the endpoints that could fetch an unlimited amount of records, the caller of the endpoint may provide the page and amount of records to fetch at a specific time
+*in order to also improve performance, i added indexing on applicable tables.
+*in some instances I used Request Param or RequestPath, to just highlight the various ways one may use to retrieve values.
+*I have chosen to normalize the orders table in order to avoid duplications
